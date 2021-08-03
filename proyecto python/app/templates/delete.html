@@ -1,0 +1,79 @@
+{% extends 'layout.html'%}
+{% load widget_tweaks %}
+
+{% block content %}
+	<form method="post" action=".">
+		<div class="card card-default">
+	              <div class="card-header">
+	                <h3 class="card-title">
+	                  <i class="fas fa-trash"></i>
+	                  {{title}}
+	                </h3>
+	              </div>
+	              <!-- /.card-header y csrf proteccion de django y variable form se encarga de renderizar todo los datos en el for iteramos los datos que vengan en el dif par a una mejor pres -->
+	              <div class="card-body">
+	              	{% csrf_token %}
+	              	<input type="hidden" name="action" value="{{ action }}">
+	              	{% if form.errors %}
+			              	<div class="alert alert-danger alert-dismissible">
+		                  		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+		                  		<h5><i class="icon fas fa-ban"></i> Ha ocurrido un error al querer guardar el registro</h5>
+		                  		  <!-- iteramos cada uno de los cmponentes des formulario y a cada componente le preguntare si tiene errores-->
+		                  		<ul>
+			                  		{% for field in  form %}
+			                  			{% for error in field.errors %}
+			                  				<li>{{error}}</li>
+			                  			{% endfor %}
+
+			                  			
+			                  		{% endfor %}
+		                  		
+		                  		</ul>
+		                	</div>
+		                	
+                	{% endif %}
+                	<div class="alert alert-danger alert-dismissible">
+                  		<h5><i class="icon fas fa-exclamation-triangle"></i> Notificación!</h5>
+                  		¿Estas seguro de eliminar el registro NRO {{object.id}}?
+                  	</div>
+	
+	              </div>
+	              <div class="card-footer">
+	              	<button  type= "submit" class="btn btn-primary btn-flat"><i class="fas fa-save"></i>Si, aceptar</button>
+	              	<a href="{{list_url}}"   class="btn btn-warning btn-flat"><i class="fas fa-times"></i>Cancelar </a>
+	              </div>
+	              <!-- /.card-body y me falto el salto de lines en error+= -->
+	            </div>
+    </form>
+  
+	<script type="text/javascript">
+
+		//voy a leer el formulario y lo siguiene es acceder al metoodo submit y activamos el evento con la e
+		$('form').on('submit', function(e){
+			//preventes para que no seaga de forma rapida
+			e.preventDefault();
+			//mediante jqeury obtendremos todos los datos de un formulario. this hace referencia al formulario llamamos a serliaze y nos permite obtener de manerade diccionario todos los datos
+			var parameters = new FormData(this);
+			submit_with_ajax(window.location.pathname, 'Notificación', '¿Estas seguro de eliminar el siguiente registro?', parameters, function(){
+				Swal.fire({
+  					title: 'Alerta!',
+ 					text: 'Registro eliminado correctamente',
+  					icon: 'success',
+  					timer: 2000,
+  					onClose: () => {
+  						location.href ='{{list_url}}';
+  					}
+				});
+				
+				
+
+			});
+			
+
+
+		});
+
+
+
+    </script>
+{% endblock  %}

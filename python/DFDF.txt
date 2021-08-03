@@ -1,0 +1,21 @@
+def iva():
+    '''función básica para el calculo del IVA'''
+    iva = 12
+    costo = input('¿Cual es el monto a calcular?: ')
+    calculo = costo * iva / 100
+    print "El calculo de IVA es: " + str(calculo) + "\n"
+
+
+"""config = configparser.ConfigParser()
+config.read('config.ini')
+
+sections = config.sections()
+print(f'Sections: {sections}')
+
+for opcion in config['mysql']:
+    print(opcion) """
+
+"""for section in config.sections():
+	print(section)"""
+"""if 'mysql' in config:
+    print("La sección existe")"""

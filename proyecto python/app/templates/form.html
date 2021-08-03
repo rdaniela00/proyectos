@@ -1,0 +1,101 @@
+{% extends 'layout.html'%}
+{% load widget_tweaks %}
+
+{% block content %}
+	<form method="post" action="." enctype="multipart/form-data">
+		<div class="card card-default">
+	              <div class="card-header">
+	                <h3 class="card-title">
+	                	<!-- if para que cambie de icono segun la pantalla-->
+	                	{% if action == 'add' %}
+	                		<i class="fas fa-plus"></i>
+	                	{%else%}
+	                		<i class="fas fa-edit"></i>
+	                	{% endif %}
+
+	                  
+	                  {{title}}
+	                </h3>
+	              </div>
+	              <!-- /.card-header y csrf proteccion de django y variable form se encarga de renderizar todo los datos en el for iteramos los datos que vengan en el dif par a una mejor pres -->
+	              <div class="card-body">
+	              	{% csrf_token %}
+	              	<input type="hidden" name="action" value="{{ action }}">
+	              	{% if form.errors %}
+			              	<div class="alert alert-danger alert-dismissible">
+		                  		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+		                  		<h5><i class="icon fas fa-ban"></i> Ha ocurrido un error al querer guardar el registro</h5>
+		                  		  <!-- iteramos cada uno de los cmponentes des formulario y a cada componente le preguntare si tiene errores-->
+		                  		<ul>
+			                  		{% for field in  form %}
+			                  			{% for error in field.errors %}
+			                  				<li>{{error}}</li>
+			                  			{% endfor %}
+
+			                  			
+			                  		{% endfor %}
+		                  		
+		                  		</ul>
+		                	</div>
+
+                	{% endif %}
+	              	
+	              	{% for field in form.visible_fields  %}
+	              		<div class="form-group">
+		              		<label for="nombre">{{ field.label }}</label>
+		              		{{ field|add_class:'form-control'|attr:'autocomplate:off'}}
+	              		</div>
+	              	{% endfor %}
+	
+	              </div>
+	              <div class="card-footer">
+	              	<button  type= "submit" class="btn btn-primary btn-flat"><i class="fas fa-save"></i>Guardar registro</button>
+	              	<a href="{{ list_url }}" class="btn btn-danger btn-flat">
+                    <i class="fas fa-times"></i> Cancelar
+                	</a>
+	              </div>
+	              <!-- /.card-body y me falto el salto de lines en error+= -->
+	            </div>
+    </form>
+    <script type="text/javascript">
+    	//{% if form.errors %}
+    		//var errors = '';
+    		//{%  for field in form %}
+    			//{% for error in field.errors  %}
+    				//errors+='{{error}}\n';
+    				
+    			//{% endfor %}
+    			
+    		//{% endfor %}
+    	//Swal.fire({
+  		//title: 'Error!',
+ 		//text: errors,
+  		//icon: 'error'
+		//});
+		//{%endif%}
+		//voy a leer el formulario y lo siguiene es acceder al metoodo submit y activamos el evento con la e
+		$('form').on('submit', function(e){
+			//preventes para que no seaga de forma rapida
+			e.preventDefault();
+
+			//mediante jqeury obtendremos todos los datos de un formulario. this hace referencia al formulario llamamos a serliaze y nos permite obtener de manerade diccionario todos los datos
+			//var parameters = $(this).serializeArray();
+			var parameters = new FormData(this);
+			submit_with_ajax(window.location.pathname, 'Notificación', '¿Estas seguro de realizar la siguiente acción?', parameters, function(){
+				Swal.fire({
+  					title: 'Alerta!',
+ 					text: 'Registro guardado correctamente',
+  					icon: 'success',
+  					timer: 2000,
+  					onClose: () => {
+  						location.href ='{{list_url}}';
+  					}
+				});
+			});
+			
+            
+         	});
+
+    </script>
+	
+{% endblock  %}

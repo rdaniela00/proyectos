@@ -1,0 +1,75 @@
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\bin\Debug\boutique.exe.config
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\bin\Debug\boutique.exe
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\bin\Debug\boutique.pdb
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.csprojResolveAssemblyReference.cache
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.Form1.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.Properties.Resources.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.csproj.GenerateResource.Cache
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.exe
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique\boutique\obj\Debug\boutique.pdb
+D:\boutique\boutique\bin\Debug\boutique.exe.config
+D:\boutique\boutique\obj\Debug\boutique.exe
+D:\boutique\boutique\obj\Debug\boutique.pdb
+D:\boutique\boutique\bin\Debug\boutique.exe
+D:\boutique\boutique\bin\Debug\boutique.pdb
+D:\boutique\boutique\obj\Debug\boutique.csprojResolveAssemblyReference.cache
+D:\boutique\boutique\obj\Debug\boutique.Form1.resources
+D:\boutique\boutique\obj\Debug\boutique.frmLogin.resources
+D:\boutique\boutique\obj\Debug\boutique.frmUsuario.resources
+D:\boutique\boutique\obj\Debug\boutique.Properties.Resources.resources
+D:\boutique\boutique\obj\Debug\boutique.csproj.GenerateResource.Cache
+D:\boutique\boutique\obj\Debug\boutique.frmpersonas.resources
+D:\boutique\boutique\obj\Debug\boutique.frmModulos.resources
+D:\boutique\boutique\obj\Debug\boutique.frmPerfiles.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\bin\Debug\boutique.exe.config
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.exe
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.pdb
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\bin\Debug\boutique.exe
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\bin\Debug\boutique.pdb
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.csprojResolveAssemblyReference.cache
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmprincipal.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmLogin.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmpersonas.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmUsuario.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.Properties.Resources.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.csproj.GenerateResource.Cache
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmcategoriaproductos.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmproductos.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmProveedores.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmClientes.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmDepartamento.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmCajas.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmSucursales.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmTrabajadores.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmModulo.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmPuestos.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmSalidas.resources
+C:\Users\Peter\OneDrive\Documentos\7 semestre\sistemas programables\boutiquePeter\boutique\obj\Debug\boutique.frmPerfiles.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\bin\Debug\boutique.exe.config
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.exe
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.pdb
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\bin\Debug\boutique.exe
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\bin\Debug\boutique.pdb
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.csprojResolveAssemblyReference.cache
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmprincipal.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmCajas.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmcategoriaproductos.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmClientes.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmDepartamento.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.Frmenradas.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmLogin.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmModulo.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmPerfiles.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmpersonas.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmproductos.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmProveedores.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmPuestos.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmSalidas.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmSucursales.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmTrabajadores.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.frmUsuario.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.Properties.Resources.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.csproj.GenerateResource.Cache
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.Frmvizualizador.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.Frmsalidasre.resources
+C:\Users\daniela ramirez\Documents\Visual Studio 2012\Projects\boutique1\boutique\obj\Debug\boutique.Frmenre.resources
